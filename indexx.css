@@ -1,0 +1,53 @@
+body{
+    align-content: center;
+    background-image: url("https://pikwizard.com/photos/11626fd80e52febcb66ac756c3fc4cf1-m.jpg");
+    background-size: cover;
+}
+.header{
+        padding: 10px;
+        box-shadow: 5px;
+        text-align: center;
+        size: 20px;
+    
+}
+
+.section
+{
+    align-content: center;
+    border-image-slice: fill;
+    size: 40
+    +px;
+    text-align: center;
+}
+#but1,#but2,#but3,#but4,#buto,#but5,#but6,#but7,#but8
+{
+    display: inline-block;
+  padding: 8px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(107, 107, 107);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.but:hover {
+    background-color: #2e2e2e
+}
+
+.but:active {
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.h2
+{
+    border:10px groove rgb(55, 170, 247);
+    border-block-end-style: groove;
+    size: 12px;
+    
+}
